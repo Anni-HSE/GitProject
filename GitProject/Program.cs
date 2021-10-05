@@ -6,17 +6,13 @@ namespace GitProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Привет как дела");
-
-            Random rnd = new Random();
-
-            int n = rnd.Next(1, 10);
-            Console.WriteLine($"{n}");
+            
         }
     }
 
     class Dota2
     {
-
+        string Hero { get; set; }
+        string Item { get; set; }
     }
 }
