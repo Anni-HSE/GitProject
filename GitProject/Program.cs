@@ -14,4 +14,9 @@ namespace GitProject
             Console.WriteLine($"{n}");
         }
     }
+
+    class Dota2
+    {
+
+    }
 }
