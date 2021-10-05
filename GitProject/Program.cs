@@ -6,13 +6,29 @@ namespace GitProject
     {
         static void Main(string[] args)
         {
-            
+            Dota2 hero = new Dota2("Pudge", "5555", 78, 300);
+            hero.Show();
         }
     }
 
     class Dota2
     {
         string Hero { get; set; }
-        string Item { get; set; }
+        string Health { get; set; }
+        int Damage { get; set; }
+        int Speed { get; set; }
+
+        public Dota2(string hero, string health, int damage, int speed)
+        {
+            Hero = hero;
+            Health = health;
+            Damage = damage;
+            Speed = speed;
+        }
+
+        public void Show()
+        {
+            Console.WriteLine($"Hero name = {Hero}, Hearo health = {Health}, Hero Damage = {Damage}");
+        }
     }
 }
