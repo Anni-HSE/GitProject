@@ -6,7 +6,7 @@ namespace GitProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("жопа");
+            Console.WriteLine("Привет как дела");
         }
     }
 }
