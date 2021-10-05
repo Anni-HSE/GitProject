@@ -9,4 +9,9 @@ namespace GitProject
             Console.WriteLine("Hello World!");
         }
     }
+
+    class BrawlStars
+    {
+        string Brawlik { get; set; }
+    }
 }
