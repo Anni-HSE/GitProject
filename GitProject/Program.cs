@@ -28,7 +28,9 @@ namespace GitProject
 
         public void Show()
         {
-            Console.WriteLine($"Hero name = {Hero}, Hearo health = {Health}, Hero Damage = {Damage}");
+            Console.WriteLine($"Hero name = {Hero}, Hearo health = {Health}, Hero Damage = {Damage}, Hero speed = {Speed}");
         }
+
+        
     }
 }
