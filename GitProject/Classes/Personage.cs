@@ -11,5 +11,7 @@ namespace GitProject.Classes
         public float Health { get; set; }
         public float MaxHealth { get; set; }
         public float Damage { get; set; }
+        public float AttackRadius { get; set; }
+        public float JumpHeight { get; set; }
     }
 }
