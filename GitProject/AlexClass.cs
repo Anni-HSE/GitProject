@@ -8,5 +8,9 @@ namespace GitProject
 {
     class AlexClass
     {
+        public void fun()
+        {
+
+        }
     }
 }
