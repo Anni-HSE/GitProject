@@ -8,5 +8,10 @@ namespace GitProject
         {
             Console.WriteLine("Hello World!");
         }
+		
+		static void ChDar()
+        {
+            Console.WriteLine("Hey It's me!");
+        }
     }
 }
