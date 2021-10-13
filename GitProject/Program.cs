@@ -6,7 +6,7 @@ namespace GitProject
     {
         static void Main(string[] args)
         {
-            Dota2 hero = new Dota2("Pudge", "5545", 78, 300);
+            Dota2 hero = new Dota2("Pudge", "4526", 78, 300);
             hero.Show();
         }
     }
