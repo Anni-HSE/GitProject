@@ -24,5 +24,13 @@ namespace GitProject
             Brawlik = nameHero;
             Health = healthHero;
         }
+
+        public bool Team(int a)
+        {
+            if (a < 0)
+            {
+                return true;
+            }
+        }
     }
 }
